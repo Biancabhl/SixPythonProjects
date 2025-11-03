@@ -70,7 +70,4 @@ def ahorcado():
 
 
 ahorcado()
-                
-        
-        
         
