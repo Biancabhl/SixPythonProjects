@@ -43,14 +43,14 @@ if __name__ == "__main__":
     for objetivo in lista_ordenada:
         busqueda_ingenua(lista_ordenada, objetivo)
     fin = time.time()
-    print(f"Tiempo de busqueda ingenua: {fin - inicio} segundos.")
+    print(f"Tiempo de busqueda ingenua: {fin - inicio} segundos. El objetivo era {objetivo}.")
     
     #Medir el tiempo de busqueda binaria.
     inicio = time.time()
     for objetivo in lista_ordenada:
         busqueda_binaria(lista_ordenada, objetivo)
     fin = time.time()
-    print(f"Tiempo de busqueda binaria: {fin - inicio} segundos.")
+    print(f"Tiempo de busqueda binaria: {fin - inicio} segundos. El objetivo era {objetivo}.")
     
     
     
